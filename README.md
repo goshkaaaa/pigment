@@ -37,7 +37,7 @@ npm run build
 npm run preview
 ```
 
-The production build goes to `dist/`. GitHub Actions builds with `/pigment/` as the base path, verifies the application, and then publishes the demo to GitHub Pages.
+The production build goes to `dist/`. GitHub Actions builds with `/pigment/` as the base path. Verify and Deploy demo workflows are included. The current demo uses a separately published `gh-pages` branch with a locally verified build. Select GitHub Actions as the Pages source to enable automatic deployments when Actions is available.
 
 ## Inside
 
